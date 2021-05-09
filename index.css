@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair%20Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair%20Display%20SC&display=swap');
+header {
+    background-color:#091114;
+    height: 70px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 0px;
+}
+.menu li a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.menu li a:hover{
+    color: #FFE604;
+}
+.yellow{
+    color: #FFE604;
+}
+.white{
+    color: #ffffff;
+}
+.secondback{
+    background: url(lib2.png);
+    min-height: 1000px
+}
+h1{
+    font-family: 'Playfair Display SC', sans-serif;
+    color: #ffffff;
+    font-size: 64px;
+    font-weight: 540;
+    margin-top: 230px;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFE604;
+}
+.btn{
+    margin-top: 400px;
+    background: #000000;
+    border-radius: 45px;
+    width: 280px;
+    height: 80px;
+    color: #FFE604;
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 22px;
+}
+.thirdback{
+    background: #091114;
+    min-height: 1600px
+}
+.card-white-box{
+    width: 300px;
+    height: 470px;
+    background: #FFFFFF;
+    border-radius: 61px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-white-box img{
+    width: 85%;
+    height: 85%;
+}
+h2{
+    font-family: 'Playfair Display SC', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 540;
+    margin-top: 50px;
+}
+.cardtitle{
+    display: block;
+    font-family: 'Playfair Display SC', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #FFE604;
+}
+.title1{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+    display: block;
+}
+.readbutton{
+    display: block;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    color: #FFE604;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 50px;
+}
+.cards {
+    margin-top: 120px;
+}
+footer{
+    background-color:#000000;
+    height: auto;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 30px;
+}
+.footer-allrights{
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: right;
+}
+footer a img {
+    width : 50px;
+    margin-left: 10px;
+}
+footer a{
+    color: #ffffff;
+    font-size: 16px;
+}
+.footer-contacts a{
+    text-decoration: none;
+}
+footer a img:hover{
+    background:#ffffff;
+    border-radius: 45%;
+}
+.descr {
+    position: relative;  
+}
+
+@media (min-width:992px) and  (max-width:1199px){
+    .card-white-box{
+        width: 220px;
+        height: 360px;
+    }
+    .cardtitle{
+        font-size: 18px;
+    }
+    .title1{
+        font-size: 14px;
+    }
+    .readbutton{
+        font-size: 20px;
+    }
+    .descr{
+        height:390px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    footer a img {
+        width : 35px;
+        margin-left: 7px;
+    }
+    .thirdback{
+        background: #091114;
+        min-height: 1400px
+    }
+
+}
+@media (max-width:991px){
+    header a.yellow {
+        font-size: 22px;
+    }
+    header a.white {
+        font-size: 22px;
+    }
+    h1{
+        font-size: 56px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    .btn{
+        width: 240px;
+        height: 70px;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 56px;
+    }
+    .card-white-box{
+        width: 180px;
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .cardtitle{
+        font-size: 16px;
+    }
+    .title1{
+        font-size: 12px;
+    }
+    .readbutton{
+        font-size: 16px;
+        position: static;
+    }
+    .cards {
+        margin-top: 0px;
+    }
+    footer a img {
+        width : 40px;
+        margin-left: 7px;
+    }
+}
+@media (max-width: 767px){
+    header a.yellow {
+        font-size: 13px;
+    }
+    header a.white {
+        font-size: 13px;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+        font-size: 12px;
+        margin-top: 200px;
+        background: #000000;
+        border-radius: 45px;
+        font-family: 'Playfair Display SC';
+        padding: 0%;
+    }
+    h1{
+        font-size: 32px;
+        margin-top: 100px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 32px;
+        margin-top: 30px;
+    }
+    .secondback{
+        background: url(lib2.png);
+        min-height: 460px
+    }
+}
